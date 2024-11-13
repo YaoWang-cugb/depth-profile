@@ -1,19 +1,10 @@
 
-library(stats)
-library(MASS)
-library(ggplot2)
-library(zoo)
-library(changepoint)
-library(readxl)
-library(nlme)
-library(tidyverse)
-library(mlbench)
-library(Matrix)
-library(dplyr)
-library(forecast)
-library(openxlsx)
-library(gridExtra)
-library(png)
-library(mcp)
-setwd("C:/Users/Lenovo/Documents/Depth Profiling")
-file_path <- "C:/Users/Lenovo/Desktop/mr2/4GS/4GS.xlsx"  # 请替换为你的文件路径
+setwd("C:/Users/Lenovo/Documents/2024 YaoWang, EPSL/Depth Profiling") #Set the working directory
+file_path <- "C:/Users/Lenovo/Documents/2024 YaoWang, EPSL/Depth Profiling/Input.xlsx"  # Please replace with your file path
+
+#设置参数
+chunk_size <- 411
+Laser_moving_speed <- NA  
+Laser_radius <- NA  
+Lower_limit_of_ablation_time <- 29
+Upper_limit_of_ablation_time <- 58
