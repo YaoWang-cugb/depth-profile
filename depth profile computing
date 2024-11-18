@@ -1,6 +1,6 @@
 
-setwd("C:/Users/Lenovo/Documents/2024 YaoWang, EPSL/Depth Profiling") #Set the working directory
-file_path <- "C:/Users/Lenovo/Documents/2024 YaoWang, EPSL/Depth Profiling/Input.xlsx"  # Please replace with your file path
+setwd("2025 YaoWang/Depth Profiling") #Set the working directory
+file_path <- "2025 YaoWang/Depth Profiling/Input.xlsx"  # Please replace with your file path
 
 #设置参数
 chunk_size <- 411
